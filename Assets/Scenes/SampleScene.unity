@@ -1332,6 +1332,7 @@ GameObject:
   - component: {fileID: 1761358057}
   - component: {fileID: 1761358056}
   - component: {fileID: 1761358055}
+  - component: {fileID: 1761358058}
   m_Layer: 0
   m_Name: NetworkingManager
   m_TagString: Untagged
@@ -1402,7 +1403,7 @@ MonoBehaviour:
     EnableNetworkLogs: 1
     OldPrefabList: []
   RunInBackground: 1
-  LogLevel: 1
+  LogLevel: 0
 --- !u!4 &1761358057
 Transform:
   m_ObjectHideFlags: 0
@@ -1418,6 +1419,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1761358058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761358054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0378ca3056606b34ca820e40bb18b96a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ServerBTN: {fileID: 1176114257}
+  HostBTN: {fileID: 924950407}
+  ClientBTN: {fileID: 1778603190}
 --- !u!1 &1778603188
 GameObject:
   m_ObjectHideFlags: 0
